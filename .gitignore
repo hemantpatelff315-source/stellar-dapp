@@ -1,0 +1,39 @@
+# Rust / Soroban
+/target
+**/target
+Cargo.lock.bak
+*.wasm
+test_snapshots/
+!scripts/**/*.wasm
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+.soroban/
+.stellar/
+**/identity/**
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Deployment artifacts (keep .example)
+deployments/*.json
+!deployments/.gitkeep
