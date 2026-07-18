@@ -87,8 +87,8 @@ impl TreasuryContract {
         // Move real tokens into custody first; if this fails the whole tx
         // reverts and no balance is credited.
         let client = token::TokenClient::new(&env, &config.token);
-        client.transfer(&from, &env.current_contract_address(), &amount);
-
+        let treasury = env.current_contract_address();
+        client.transfer(&from, &treasury, &amount);
         let current = Self::balance_of(&env, campaign_id);
         let updated = checked_add(current, amount)?;
         env.storage()

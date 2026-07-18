@@ -8,6 +8,9 @@
 
 use soroban_sdk::{contractclient, Address, Env};
 
+// The trait exists only to generate `TreasuryClient`; its methods are called
+// through that client, so the trait itself reads as "unused".
+#[allow(dead_code)]
 #[contractclient(name = "TreasuryClient")]
 pub trait TreasuryInterface {
     fn deposit(env: Env, campaign_id: u64, from: Address, amount: i128) -> i128;

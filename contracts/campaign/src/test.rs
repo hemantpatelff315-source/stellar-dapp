@@ -15,7 +15,6 @@ struct World {
     treasury: TreasuryContractClient<'static>,
     token_admin: StellarAssetClient<'static>,
     token: TokenClient<'static>,
-    factory: Address,
 }
 
 fn world() -> World {
@@ -46,7 +45,6 @@ fn world() -> World {
         treasury,
         token_admin,
         token,
-        factory,
     }
 }
 

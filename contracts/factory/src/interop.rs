@@ -5,6 +5,8 @@
 
 use soroban_sdk::{contractclient, Address, Env, String};
 
+// Interface-only trait used to generate `CampaignClient`.
+#[allow(dead_code)]
 #[contractclient(name = "CampaignClient")]
 pub trait CampaignInterface {
     fn register(

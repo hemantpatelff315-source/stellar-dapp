@@ -93,10 +93,10 @@ impl CampaignContract {
         if goal < MIN_GOAL {
             return Err(Error::InvalidGoal);
         }
-        if duration_secs < MIN_DURATION || duration_secs > MAX_DURATION {
+        if !(MIN_DURATION..=MAX_DURATION).contains(&duration_secs) {
             return Err(Error::InvalidDeadline);
         }
-        if title.len() == 0 || title.len() > 100 {
+        if title.is_empty() || title.len() > 100 {
             return Err(Error::InvalidTitle);
         }
 
