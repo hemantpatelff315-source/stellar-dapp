@@ -4,10 +4,13 @@
 
 StellarFund lets anyone launch a crowdfunding campaign and lets backers donate with confidence: funds are held by an on-chain treasury, released to the creator only when the goal is met, and automatically refundable to donors if the campaign fails. No intermediary ever custodies the money.
 
+**🔗 Live demo:** [stellar-dapp-orcin.vercel.app](https://stellar-dapp-orcin.vercel.app/) · **▶️ Video walkthrough:** [youtu.be/pb6IthOQTY8](https://youtu.be/pb6IthOQTY8)
+
 ---
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Architecture](#architecture)
 - [Deployed Contracts (Testnet)](#deployed-contracts-testnet)
@@ -18,6 +21,13 @@ StellarFund lets anyone launch a crowdfunding campaign and lets backers donate w
 - [Scripts](#scripts)
 - [Testing](#testing)
 - [License](#license)
+
+---
+
+## Live Demo
+
+- **Live app:** [stellar-dapp-orcin.vercel.app](https://stellar-dapp-orcin.vercel.app/)
+- **Video walkthrough:** [youtu.be/pb6IthOQTY8](https://youtu.be/pb6IthOQTY8)
 
 ---
 
