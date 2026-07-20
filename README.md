@@ -23,8 +23,6 @@ StellarFund lets anyone launch a crowdfunding campaign and lets backers donate w
 
 ## Screenshots
 
-> Screenshot images are not yet committed to the repo. Drop your PNGs into `docs/screenshots/` using the filenames below and they will render here automatically.
-
 | Home / Campaign list | Create campaign |
 | --- | --- |
 | ![Home](docs/screenshots/home.png) | ![Create](docs/screenshots/create.png) |
